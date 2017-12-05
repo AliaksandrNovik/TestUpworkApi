@@ -12,8 +12,8 @@ public class Main {
 
     public static void main(String[] args) throws JSONException {
         Properties keys = new Properties();
-        keys.setProperty("consumerKey", "1a81dc23d141a41e3e43ea1460b7df12");
-        keys.setProperty("consumerSecret", "7e10ccc5df40b226");
+        keys.setProperty("consumerKey", "a20034c28be19edec0c7ebabe2a7b65f");
+        keys.setProperty("consumerSecret", "83b2a5d28b95f0c7");
         Config config = new Config(keys);
         OAuthClient client = new OAuthClient(config);
         String authzUrl = client.getAuthorizationUrl();

@@ -10,11 +10,16 @@
 
     <!-- https://mvnrepository.com/artifact/com.Upwork/api -->
     <dependencies>
-    <dependency>
-        <groupId>com.Upwork</groupId>
-        <artifactId>api</artifactId>
-        <version>1.2.2</version>
-    </dependency>
+        <dependency>
+            <groupId>com.Upwork</groupId>
+            <artifactId>api</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.4</version>
+        </dependency>
     </dependencies>
 
 </project>
